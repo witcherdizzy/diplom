@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalog - Ceramic tiles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo2.svg" type="image/x-icon">
+
+    <script>
+        // Прокрутка хэдера
+        let prevScrollpos = window.pageYOffset;
+       
+       window.onscroll = function() {
+         let currentScrollPos = window.pageYOffset;
+         if (prevScrollpos > currentScrollPos) {
+           document.querySelector("header").classList.remove("hide");
+         } else {
+           document.querySelector("header").classList.add("hide");
+         }
+         prevScrollpos = currentScrollPos;
+       }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="logo2.svg" alt="Логотип" class="logo" style="width: 130px; height: 130px;"></a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="sale.html">Акции</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Каталог керамической плитки</h1>
+        <p>  
+        Предоставляем широкий выбор плитки для любых помещений и поверхностей, таких как ванные комнаты, кухни, гостиные, а также для наружных работ.       
+        </p>
+        <div class="tile-container">
+            <div class="tile">
+                <img src="ak1.jpg" alt="Плитка 1" width="250" height="200">
+                <h2>Ома</h2>
+                <p>Плитка выполнена в традиционном стиле.</p>
+                <a href="title1.html" class="button">Купить</a>
+            </div>
+            <div class="tile">
+                <img src="ak2.jpg" alt="Плитка 2" width="250" height="200">
+                <h2>Плитка 2</h2>
+                <p>Описание плитки 2</p>
+                <a href="#" class="button">Купить</a>
+            </div>
+            <div class="tile">
+                <img src="ak1.jpg" alt="Плитка 3" width="250" height="200">
+                <h2>Плитка 3</h2>
+                <p>Описание плитки 3</p>
+                <a href="#" class="button">Купить</a>
+            </div>
+            <div class="tile">
+                <img src="ak2.jpg" alt="Плитка 4" width="250" height="200">
+                <h2>Плитка 4</h2>
+                <p>Описание плитки 4</p>
+                <a href="#" class="button">Купить</a>
+            </div>
+
+            <div class="tile-container">
+                <div class="tile">
+                    <img src="ak1.jpg" alt="Плитка 5" width="250" height="200">
+                    <h2>Плитка 5</h2>
+                    <p>Описание плитки 5</p>
+                    <a href="#" class="button">Купить</a>
+                </div>
+                <div class="tile">
+                    <img src="ak2.jpg" alt="Плитка 6" width="250" height="200">
+                    <h2>Плитка 6</h2>
+                    <p>Описание плитки 6</p>
+                    <a href="#" class="button">Купить</a>
+                </div>
+                <div class="tile">
+                    <img src="ak1.jpg" alt="Плитка 7" width="250" height="200">
+                    <h2>Плитка 7</h2>
+                    <p>Описание плитки 7</p>
+                    <a href="#" class="button">Купить</a>
+                </div>
+                <div class="tile">
+                    <img src="ak2.jpg" alt="Плитка 8" width="250" height="200">
+                    <h2>Плитка 8</h2>
+                    <p>Описание плитки 8</p>
+                    <a href="#" class="button">Купить</a>
+                </div>
+                <div class="tile">
+                    <img src="ak1.jpg" alt="Плитка 9" width="250" height="200">
+                    <h2>Плитка 9</h2>
+                    <p>Описание плитки 9</p>
+                    <a href="#" class="button">Купить</a>
+                </div>
+                <div class="tile">
+                    <img src="ak2.jpg" alt="Плитка 10" width="250" height="200">
+                    <h2>Плитка 10</h2>
+                    <p>Описание плитки 10</p>
+                    <a href="#" class="button">Купить</a>
+                </div>
+                <div class="tile">
+                    <img src="ak1.jpg" alt="Плитка 11" width="250" height="200">
+                    <h2>Плитка 11</h2>
+                    <p>Описание плитки 11</p>
+                    <a href="#" class="button">Купить</a>
+                </div>
+                <div class="tile">
+                    <img src="ak2.jpg" alt="Плитка 12" width="250" height="200">
+                    <h2>Плитка 12</h2>
+                    <p>Описание плитки 12</p>
+                    <a href="#" class="button">Купить</a>
+                </div>
+    </div>
+        </div>
+    </main>
+
+    <footer>
+        <span class="company-name">Ceramic Tiles</span>
+        <hr>
+        <ul>
+            <li>Все материалы на сайте представлены только для ознакомления.</li>   
+            <li>Телефон: +7 (***) ***-**-**</li>
+            <li>Адрес: г. Воронеж, ул. Московский проспект, 179</li>
+            <li>Для правообладателей / Сотрудничество: partners@ceramictiles.com</li>
+            <li>Появилась проблема? - Пиши: support@ceramictiles.com</li>
+        </ul>
+    </footer>
+        
+</body>
+</html>
